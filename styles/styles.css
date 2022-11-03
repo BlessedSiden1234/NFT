@@ -98,7 +98,7 @@ body{
 }
 
 .navbar-toggler-icon{
-  background-image: url('images/menu-bar.png') !important;
+  background-image: url('../images/menu-bar.png') !important;
 }
 
 .discord-2{
