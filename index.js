@@ -89,7 +89,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
                         .attr("fill", "#111");
                     var slides = d3.select("#question span").select("img").data(data);
                     slides.enter().append("img");
-                    slides.attr("src", data[picked].url) .style({"position":"absolute","cursor":"pointer", "width" : "150px", "height" : "150px", "margin-top": "-170px", "right": "50px", });
+                    slides.attr("src", data[picked].url) .style({"position":"absolute","cursor":"pointer", "width" : "120px", "height" : "150px", "margin-top": "-170px", "right": "50px", });
                     console.log("value" + picked)
                     console.log("valuedddd" + data.length)
                     oldrotation = rotation;
