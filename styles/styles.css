@@ -410,6 +410,10 @@ body{
     cursor: pointer;
   }
 
+  .adjust{
+    height: 40px;
+  }
+
   .my-row:hover{
     background-color: #FFF;
     color:black;
@@ -447,12 +451,14 @@ body{
     cursor: pointer;  
   }
 
-  .adjust{
-    height: 40px;
-  }
+  
 
   .my-x:hover, .my-x1:hover, .my-x2:hover, .my-x3:hover, .my-x5:hover{
   
+  }
+
+  .space-down{
+    padding-bottom: 16px;
   }
 
   
@@ -463,7 +469,7 @@ body{
     max-width: 50px;
   }
 
-  .h3, .h3-second{
+  .h3, .h3-second, .h3-seconds{
     font-size: 24px;
     font-family:myFirstFont;
   }
@@ -495,6 +501,11 @@ body{
   .indent{
     letter-spacing: 8px;
     font-size: 36px !important;
+  }
+
+  .indents{
+    letter-spacing: 8px;
+    font-size: 28px;
   }
 
   .rain-comic{
@@ -564,7 +575,7 @@ body{
   }
   
     @media only screen and (max-width: 767px) {
-      .h3, .h3-second{
+      .h3, .h3-second, .h3-seconds{
         font-size: 14px;
       }
 
