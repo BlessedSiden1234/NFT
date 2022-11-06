@@ -6,7 +6,7 @@ html * {
 }
 body{
   background-image: url("../images/2-testings.jpg");
-  animation: animate 30s infinite;
+  animation: animate 50s infinite;
   animation-timing-function:linear;
 }
 
@@ -18,7 +18,7 @@ body{
 
 .bg-container{
     background-image: url("../images/2-testings.jpg");
-    background-position: center;
+    background-position: right bottom;
     background-size: cover;
     animation: animate 30s infinite;
     animation-timing-function:linear;
@@ -34,6 +34,7 @@ body{
 .navbar-nav a{
     color: #FFF !important;
     font-family:myFirstFont;
+    border-radius: 8px !important;
 }
 
 .header{
@@ -68,6 +69,7 @@ body{
   top: 25%;
   max-width: 600px;
   margin: 0 auto;
+  border-radius: 15px !important;
 }
 
 .left{
@@ -82,6 +84,9 @@ body{
   margin-left: 16px;
 }
 
+.navbar>.container-fluid{
+  padding-top: 8px;
+}
 
 .navbar-nav a:hover{
     background-color: #FFF !important;
@@ -89,9 +94,10 @@ body{
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 12px 6px;
+  padding: 6px 6px;
+  margin-bottom: 16px;
 }
- 
+
   .top{
   text-align: center;
   
@@ -535,11 +541,12 @@ body{
 .wheel-spin{
   position: relative;
   background-image: url("../images/2-testings.jpg");
-  width: 90%;
+  width: 15%;
   margin:0 auto;
   animation: animate 30s infinite;
   animation-timing-function:linear;
 }
+
 #chart{
     width:200px;
     height:200px;
@@ -610,6 +617,10 @@ body{
   @media only screen and (max-width: 992px) {
     .overlay-content{
       text-align: center;
+    }
+
+    .wheel-spin{
+      width: 55%;
     }
 
     .navbar-nav{
