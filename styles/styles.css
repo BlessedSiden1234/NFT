@@ -442,14 +442,14 @@ body{
 
   .more-1, .more, .my-x, .my-x1, .more-2, .more-3, .more-5, .more-6, .more-7, .more-8, .more-9, .more-10{
     display: none; 
-    font-size: 20px;
+   font-size: clamp(.8rem,2vw + 1px,1rem);
     line-height: 1.5;
     
   }
 
   .more-2, .more-1, .more, .more-3, .more-5, .more-6,.more-7, .more-8, .more-9, .more-10 {
     padding-top: 16px; 
-    font-family: Nunito Sans;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
   }
   
   .my-x, .my-x1, .my-x2, .my-x3, .my-x5, .my-x6, .my-x7, .my-x8, .my-x9, .my-x10{
@@ -591,7 +591,7 @@ body{
     }
   
       .more-1, .more, .my-x, .my-x1, .more-2, .more-3, .more-5, .more-6, .more-7, .more-8, .more-9, .more-10{
-        font-size: 15px;
+      font-size: clamp(.8rem,2vw + 1px,1rem);
       }
 
       .story-2{
