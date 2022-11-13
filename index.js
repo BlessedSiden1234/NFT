@@ -10,14 +10,15 @@ var padding = {top:20, right:40, bottom:0, left:0},
             //randomNumbers = getRandomNumbers();
         //http://osric.com/bingo-card-generator/?title=HTML+and+CSS+BINGO!&words=padding%2Cfont-family%2Ccolor%2Cfont-weight%2Cfont-size%2Cbackground-color%2Cnesting%2Cbottom%2Csans-serif%2Cperiod%2Cpound+sign%2C%EF%B9%A4body%EF%B9%A5%2C%EF%B9%A4ul%EF%B9%A5%2C%EF%B9%A4h1%EF%B9%A5%2Cmargin%2C%3C++%3E%2C{+}%2C%EF%B9%A4p%EF%B9%A5%2C%EF%B9%A4!DOCTYPE+html%EF%B9%A5%2C%EF%B9%A4head%EF%B9%A5%2Ccolon%2C%EF%B9%A4style%EF%B9%A5%2C.html%2CHTML%2CCSS%2CJavaScript%2Cborder&freespace=true&freespaceValue=Web+Design+Master&freespaceRandom=false&width=5&height=5&number=35#results
         var data = [
-           {"label":"NFT", "url": "./images/4test.png",  "value":1,  }, // padding
-            {"label":"NFT", "url" : "./images/30test.png", "value":2, }, //font-family
+            {"label":"NFT", "url": "./images/4test.png",  "value":1,  }, // padding
+            {"label":"NFT", "url" : "./images/30test.jpg", "value":2, }, //font-family
             {"label":"NFT", "url": "./images/8test.png", "value":3,  }, //color
-            {"label":"NFT", "url": "./images/35test.png",  "value":4,  }, //font-weight
+            {"label":"NFT", "url": "./images/35test.jpg",  "value":4,  }, //font-weight
             {"label":"NFT", "url": "./images/12test.png",  "value":5,}, //font-size
             {"label":"NFT", "url": "./images/14test.png",  "value":6,}, //background-color
-            {"label":"NFT", "url": "./images/32.jpg", "value":7,}, //nesting
-            {"label":"NFT","url": "./images/36test.png",  "value":8,}, //bottom
+            {"label":"NFT", "url": "./images/32test.jpg", "value":7,}, //nesting
+            {"label":"NFT","url": "./images/36test.jpg",  "value":8,}, //bottom
+                   
                    
         ];
         var svg = d3.select('#chart')
